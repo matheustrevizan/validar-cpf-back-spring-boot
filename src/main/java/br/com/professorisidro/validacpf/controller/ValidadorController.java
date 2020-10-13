@@ -19,4 +19,8 @@ public class ValidadorController {
 		 return "{\"status\": \"invalido\"}";
 	}
 
+	@GetMapping("/")
+	public String index() {
+		return "Bem vindo a API para validar CPF";
+	}
 }
